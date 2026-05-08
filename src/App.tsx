@@ -17,6 +17,7 @@ import CategoryCreate from "./pages/dashboard/category/CategoryCreate";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import PembicaraCreate from "./pages/dashboard/pembicara/PembicaraCreate";
 import EventCreate from "./pages/dashboard/event/EventCreate";
+import RegisterForm from "./pages/RegisterForm";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="/Login" element={<LoginForm/>} />
           <Route path="/Login" element={<HomePage/>} />
           <Route path="/register/event" element={<RegisterEvent />} />
+          <Route path="/registerform" element={<RegisterForm />} />
         </Route>
 
         <Route element={<ProtectedRoute />}>

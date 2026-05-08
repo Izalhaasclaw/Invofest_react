@@ -73,7 +73,7 @@ export default function LoginForm(){
                 </div>
 
                 <div className="mt-5">
-                    Belum punya Akun? <Link to="/register" className="text-red-600">Daftar Disini</Link>
+                    Belum punya Akun? <Link to="/registerform" className="text-red-600">Daftar Disini</Link>
                 </div>
             </form>
         </div>
